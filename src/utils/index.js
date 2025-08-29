@@ -2,8 +2,8 @@ import hero from "/assets/images/hero.jpeg";
 
 export const heroImg = hero;
 
-import hmv from "/assets/videos/hero.mp4";
-import smallmv from "/assets/videos/smallHero.mp4";
+import hvideo from "/assets/videos/heroVideo.mp4";
+import smhvideo from "/assets/videos/smallHeroVideo.mp4";
 import highlightFirstmv from "/assets/videos/highlight-first.mp4";
 import highlightSectmv from "/assets/videos/hightlight-third.mp4";
 import highlightThirdmv from "/assets/videos/hightlight-sec.mp4";
@@ -29,8 +29,8 @@ import explore2 from "/assets/images/explore2.jpg";
 import chip from "/assets/images/chip.jpeg";
 import frame from "/assets/images/frame.png";
 
-export const heroVideo = hmv;
-export const smallHeroVideo = smallmv;
+export const heroVideo = hvideo;
+export const smallHeroVideo = smhvideo;
 export const highlightFirstVideo = highlightFirstmv;
 export const highlightSecondVideo = highlightSectmv;
 export const highlightThirdVideo = highlightThirdmv;
