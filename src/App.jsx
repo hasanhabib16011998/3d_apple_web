@@ -1,7 +1,16 @@
+import Hero from "./components/Hero";
+import Highlights from "./components/Highlights";
+import NavBar from "./components/NavBar";
+
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold">
-      Hello world!
-    </h1>
+    <main className="bg-black">
+      {/* Navbar */}
+      <NavBar/>
+      {/* hero */}
+      <Hero/>
+      {/* highlights */}
+      <Highlights/>
+    </main>
   )
 }
